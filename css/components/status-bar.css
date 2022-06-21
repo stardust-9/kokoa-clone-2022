@@ -6,15 +6,15 @@
 .status-bar__column:first-child span {
 margin-right: 5px;
 }
-.status-bar__column:nth-child(2) {
+.status-bar__column:nth-child(2) span {
     display: flex;
     justify-content: center;
 }
-.status-bar__column:last-child {
+.status-bar__column:last-child span {
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
 .status-bar__column .fa-battery-full {
-    margi: 0px 5px;
+    margin: 0px 5px;
 }
